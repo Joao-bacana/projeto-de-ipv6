@@ -1,0 +1,9 @@
+ipv6 unicast-routing
+
+interface lo0
+ ipv6 address 2001:db8:1::1/64
+ ipv6 rip RIP enable
+
+interface f0/0
+ ipv6 address 2001:db8:12::1/64
+ ipv6 rip RIP enable
