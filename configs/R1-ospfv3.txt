@@ -1,0 +1,12 @@
+ipv6 unicast-routing
+
+interface lo0
+ ipv6 address 2001:db8:1::1/64
+ ipv6 ospf 1 area 0
+
+interface f0/0
+ ipv6 address 2001:db8:12::1/64
+ ipv6 ospf 1 area 0
+
+ipv6 router ospf 1
+ router-id 1.1.1.1
