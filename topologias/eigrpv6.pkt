@@ -1,0 +1,9 @@
+Descrição: A mesma topologia física usada para RIPng, porém configurada com o protocolo EIGRPv6 (AS 10).
+
+Características:
+
+Formação de vizinhança baseada em endereços link-local.
+
+Atualizações rápidas e suporte a topologias maiores.
+
+Objetivo: Validar vizinhança, rotas aprendidas e estabilidade do protocolo.
