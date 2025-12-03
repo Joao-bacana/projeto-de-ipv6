@@ -1,0 +1,17 @@
+Descrição: Topologia simples com três roteadores propagando rotas via RIPng.
+
+Interfaces utilizadas:
+
+R1 ⇄ R2: 2001:db8:12::/64
+
+R2 ⇄ R3: 2001:db8:23::/64
+
+Loopbacks:
+
+R1: 2001:db8:1::1/64
+
+R2: 2001:db8:2::1/64
+
+R3: 2001:db8:3::1/64
+
+Objetivo: Testar a troca de rotas com RIPng e verificar conectividade entre as loopbacks.
