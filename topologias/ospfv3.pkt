@@ -1,0 +1,11 @@
+Descrição: Topologia idêntica aos cenários anteriores, configurada usando OSPFv3, com área única (área 0).
+
+Características:
+
+Protocolo link-state
+
+Eleição de DR e BDR (quando aplicável)
+
+Propagação eficiente de rotas IPv6
+
+Objetivo: Testar adjacência entre roteadores, rotas aprendidas e conectividade global.
